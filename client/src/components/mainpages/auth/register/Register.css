@@ -1,0 +1,59 @@
+.register-page{
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: #fff;
+}
+.register-page h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #555;
+    font-size: 32px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+.register-page form .info,
+.register-page form button{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 5px;
+    outline: rgb(3, 165, 206);
+    border: 1px solid rgb(223, 165, 111);
+    font-size: 18px;
+}
+.register-page form .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .role{
+    color:darkgreen;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+
+}
+
+ form input#frns, input#clnt{
+    color:darkgray;
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 12px;
+    
+}
+.register-page form button{
+    width: 150px;
+    background: rgb(223, 165, 111);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.register-page form a{
+    color: orange;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}

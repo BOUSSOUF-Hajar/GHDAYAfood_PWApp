@@ -1,0 +1,70 @@
+.history-page{
+    overflow-x: auto;
+    background-color: rgb(236, 221, 215);
+    margin-top: 50px;
+    padding: 16px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.history-page h2, h4{
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    
+}
+.history-page h2{
+    color:darkgoldenrod;
+    font-size: 30px;
+
+}
+.history-page h4{
+    color: rgb(255, 170, 0);
+    text-transform: none;
+    font-size: 18px;
+}
+.history-page table{
+    margin: auto;
+    width: 100%;
+}
+.history-page table,th,tr,td{
+    border: 1px solid rgb(167, 161, 161);
+    border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+table a{
+    color: rgb(17, 153, 69);
+}
+.traite{
+    background-color: rgb(133, 228, 218);
+    margin-left: 10px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.annulerCMD{
+    border: 2px solid rgb(255, 170, 0);
+    border-radius: 10px;
+    padding: 4px 10px;
+    font-size: 16px;
+    background-color: sandybrown;
+    color: seashell;
+    font-weight: 500;
+
+}
+.annulerCMD:hover{
+   background-color: rgb(235, 227, 227);
+   border: none;
+   color: teal;
+   padding: 6px 12px;
+}
+.history-page img{
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+}
